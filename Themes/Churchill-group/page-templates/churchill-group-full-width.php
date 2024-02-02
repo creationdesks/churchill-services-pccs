@@ -15,7 +15,7 @@ get_header(); ?>
 				//echo do_shortcode('[INSERT_ELEMENTOR id="12432"]');
 				?>
 			<!-- <div class="white" style="background:rgba(0,0,0,0); border:solid 0px rgba(0,0,0,0); border-radius:0px; padding:0px 0px 0px 0px;">
-					<div id="slider_22_slide01" class="sa_hover_container" style="padding:4% 10%; margin:0px 0%; background-image:url(&quot;https://www.churchillservices.com/wp-content/uploads/2019/11/BG-banner.jpg&quot;); background-position:right bottom; background-size:cover; background-repeat:no-repeat;">
+					<div id="slider_22_slide01" class="sa_hover_container" style="padding:4% 10%; margin:0px 0%; background-image:url(&quot;/wp-content/uploads/2019/11/BG-banner.jpg&quot;); background-position:right bottom; background-size:cover; background-repeat:no-repeat;">
 						<div class="row">
 							<div class="col-md-5">
 								<div class="daily-date">
@@ -43,7 +43,7 @@ get_header(); ?>
 							</div>
 							<div class="col-md-2">&nbsp;</div>
 							<div class="col-md-5">
-								<img class="aligncenter size-full wp-image-11206" src="https://www.churchillservices.com/wp-content/uploads/2019/11/buble-Greetings-for-seasons-text-edited-final.png" alt="" width="842" height="523">
+								<img class="aligncenter size-full wp-image-11206" src="/wp-content/uploads/2019/11/buble-Greetings-for-seasons-text-edited-final.png" alt="" width="842" height="523">
 							</div>
 						</div>
 					</div>
@@ -51,7 +51,7 @@ get_header(); ?>
 				<?php // masterslider("ms-1-1"); ?>
 				<?php echo do_shortcode('[churchill_menu_slider]');?>
 				<section id="case-studies" class="">
-					<img class="aligncenter size-full wp-image-202" src="https://www.skylinemicrosites.co.uk/churchill-group/wp-content/uploads/2019/03/portfolio-line.jpg" alt="Portfolio-line" width="114" height="1" />
+					<img class="aligncenter size-full wp-image-202" src="/churchill-group/wp-content/uploads/2019/03/portfolio-line.jpg" alt="Portfolio-line" width="114" height="1" />
 					<h1>Latest</h1>
 					<div class="gallery row">
 							<?php $myquery = new WP_Query( array( 'post_type' => 'post', 'posts_per_page' => '6', ) );?>
@@ -149,7 +149,7 @@ get_header(); ?>
 				</div>
 				<section id="our-accreditations">
 					<div class="col-lg-12 col-md-12">
-						<img class="aligncenter size-full wp-image-202" src="https://www.skylinemicrosites.co.uk/churchill-group/wp-content/uploads/2019/03/portfolio-line.jpg" alt="Portfolio-line" width="114" height="1" />
+						<img class="aligncenter size-full wp-image-202" src="/churchill-group/wp-content/uploads/2019/03/portfolio-line.jpg" alt="Portfolio-line" width="114" height="1" />
 						<h1>Our accreditations, registrations and awards </h1>
 					</div>
 					<?php echo do_shortcode('[slide-anything id="1943"]'); ?>
@@ -158,7 +158,7 @@ get_header(); ?>
 					<div class="container-fluid">
 						<div class="row follow-box">
 							<div class="twitter-box"> 
-								<img class="aligncenter size-full wp-image-202" src="https://www.skylinemicrosites.co.uk/churchill-group/wp-content/uploads/2019/03/portfolio-line.jpg" alt="Portfolio-line" width="114" height="1" />
+								<img class="aligncenter size-full wp-image-202" src="/churchill-group/wp-content/uploads/2019/03/portfolio-line.jpg" alt="Portfolio-line" width="114" height="1" />
 								<h1>Follow us</h1>
 								<?php echo do_shortcode('[arrow_sf id="8486"]'); ?>
 							</div>

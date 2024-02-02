@@ -13,7 +13,7 @@ get_header(); ?>
 		<div class="row">
 			<div class="col-md-6 col-sm-12">
 			<div class="title-section">
-				<img class="aligncenter size-full wp-image-202" src="https://www.skylinemicrosites.co.uk/churchill-group/wp-content/uploads/2019/03/portfolio-line.jpg" alt="portfolio-line" width="114" height="1">
+				<img class="aligncenter size-full wp-image-202" src="/churchill-group/wp-content/uploads/2019/03/portfolio-line.jpg" alt="portfolio-line" width="114" height="1">
 				<h2 class="blog-title">Our blog</h2>
 			</div>
 			</div>
