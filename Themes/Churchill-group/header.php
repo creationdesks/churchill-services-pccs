@@ -13,7 +13,7 @@
 <!doctype html>
 <html <?php language_attributes(); ?>>
 <head>
-	<meta name="google-site-verification" content="KtNTo7jlKLDXtTkKVreQaJT2ikq0NmGZR9S5Xq2VP9M" />
+	<meta name="google-site-verification" content="***************************" />
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
@@ -70,9 +70,9 @@
 								  <?php //get_search_form(); ?>
 								<!-- </div> Logins panel -->
 								<div class="col-lg-12 col-md-12 col-xs-12 login-pan">
-									<a class="btn" href="https://www.mo-dus.co.uk/Login/" target="_blank"><span class="grouploginsEmployee"></span>Employee</a>
-	<!-- sg-popup-id-2635 -->		<a class="btn" href="https://www.mo-dus.co.uk/Login/" target="_blank"><span class="grouploginsClient"></span>Client</a>
-	<!-- sg-popup-id-2638 -->		<a class="btn" href="https://www.mo-dus.co.uk/Login/" target="_blank"><span class="grouploginsSupplier"></span>Supplier</a>
+									<a class="btn" href="/Login/" target="_blank"><span class="grouploginsEmployee"></span>Employee</a>
+	<!-- sg-popup-id-2635 -->		<a class="btn" href="/Login/" target="_blank"><span class="grouploginsClient"></span>Client</a>
+	<!-- sg-popup-id-2638 -->		<a class="btn" href="/Login/" target="_blank"><span class="grouploginsSupplier"></span>Supplier</a>
 								</div>
 							</div>
 						</div>

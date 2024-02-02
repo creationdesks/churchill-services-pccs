@@ -94,7 +94,7 @@
 							<div class="contact-map-container map-toggle-on">
 								<div id="" class="kd_map" style="position: relative; overflow: hidden;">
 									<!--<iframe src="//www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2465.883637016444!2d-0.3471447645233491!3d51.826556104211235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48763848a1affec7%3A0xea52c45c74be3874!2sChurchill!5e0!3m2!1sen!2sin!4v1553694168184" width="100%" height="1000" frameborder="0" style="border:0;margin-top:-160px;" allowfullscreen></iframe> -->
-									<img src="https://www.churchillservices.com/wp-content/uploads/2021/11/googlemap.png" width="100%" height="100%">
+									<img src="/wp-content/uploads/2021/11/googlemap.png" width="100%" height="100%">
 								</div>
 							</div>
 						</div>
@@ -105,12 +105,12 @@
 		<div class="container-fluid footer-nav">
 			<div class="row">
 				<div class="col-lg-6 col-md-6">
-				<a href="https://www.linkedin.com/company/churchill-group-/" class="social-linkedin" target="_blank" rel="nofollow">
+				<a href="https://www.linkedin.com/" class="social-linkedin" target="_blank" rel="nofollow">
 					<span>
 					  	<i class="fa fa-linkedin" aria-hidden="true"></i>
 					</span>
 				</a>
-				<a href="https://twitter.com/Churchill_Group/" class="social-twitter" target="_blank" rel="nofollow">
+				<a href="https://twitter.com/" class="social-twitter" target="_blank" rel="nofollow">
 					<span>
 						<i class="fa fa-twitter" aria-hidden="true"></i>
 					</span>
@@ -118,9 +118,9 @@
 				</div>
 				<div class="col-lg-6 col-md-6">
 				<div class="site-info">
-					<span>Copyright © 2022 </span><a href="<?php echo esc_url( 'https://www.churchillservices.com' ); ?>">Churchill Group</a>
+					<span>Copyright © 2022 </span><a href="<?php echo esc_url( '#' ); ?>">Churchill Group</a>
 					<span class="sep"> | Powered by</span>
-					<a href="<?php echo esc_url( 'https://www.skylinemicrosites.co.uk' ); ?>" target="_blank">Skyline MicroSites</a>
+					<a href="<?php echo esc_url( '#' ); ?>" target="_blank">Skyline MicroSites</a>
 				</div><!-- .site-info -->
 				<nav id="site-navigation" class="navbar navbar-expand-lg navbar-dark">
 						<?php
@@ -152,7 +152,7 @@
 	e.preventDefault();
 	if(jQuery("#sg-popup-content-wrapper-2635 input[name='user_username']:visible").val().trim().length) {
 		jQuery.ajax({
-			url: "https://client.churchillservices.com/core",
+			url: "",
 			type: "POST",
 			data: {
 				what: "recover-client-pwd",
@@ -161,7 +161,7 @@
 			},
 			success: function (data) {
 				if(data == "no_email")
-					error = 'It seems we do not have an email address for you, so we cannot send you a new password.<br>Please email <a href="mailto:Cati@Churchillservices.com">Cati@Churchillservices.com</a>';
+					error = 'It seems we do not have an email address for you, so we cannot send you a new password.<br>Please email <a href=""></a>';
 				else if(data == "not_found")
 					error = "We could not find this user in the Client Portal";
 				else
@@ -179,7 +179,7 @@
 });
 
 jQuery(".help_button").click(function(){
-	location.href = "https://client.churchillservices.com/before-you-continue/employee-request";
+	location.href = "/before-you-continue/employee-request";
 });*/
 </script>	
 <script>
@@ -210,7 +210,7 @@ var myVar = setInterval(myTimer, 300);
 function myTimer() { 
 if(jQuery('.social-feed-container-8486 .col-md-6').length == 6){ 
 	
-	var newcontent = '<div class="text-center col-lg-6 col-xs-12"><div class="card"><div class="card-body"><a class="view-all" href="https://twitter.com/Churchill_Group"><h2 class="card-title">VIEW ALL</h2></a></div></div></div>'	
+	var newcontent = '<div class="text-center col-lg-6 col-xs-12"><div class="card"><div class="card-body"><a class="view-all" href="https://twitter.com/"><h2 class="card-title">VIEW ALL</h2></a></div></div></div>'	
 	jQuery('div.grid-item.col-md-6:last').replaceWith(newcontent);
 	
 }

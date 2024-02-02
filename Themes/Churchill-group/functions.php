@@ -609,7 +609,7 @@ function smyles_custom_job_manager_logo( $logo_url ){
 function change_logo_on_single($html) {
 
    if(is_page(10320)){
-      $html = preg_replace('/<img(.*?)\/>/', '<img src="https://www.churchillservices.com/wp-content/uploads/2019/11/churchill-white-logo.png" class="custom-logo" alt="" itemprop="logo" />', $html);
+      $html = preg_replace('/<img(.*?)\/>/', '<img src="/wp-content/uploads/2019/11/churchill-white-logo.png" class="custom-logo" alt="" itemprop="logo" />', $html);
    }
 
    return $html;
@@ -1206,15 +1206,15 @@ function menu_slider_model(){
 				<div class="col">
 					<div id="product__slider">
 						  <div class="product__slider-thmb">
-							<div class="slide"><img src="https://www.churchillservices.com/wp-content/uploads/2021/04/Cleaning-slick-menu.png" alt="Churchill Cleaning" class="img-responsive"></div>
-							<div class="slide"><img src="https://www.churchillservices.com/wp-content/uploads/2021/04/Portfolio-slick-menu.png" alt="Portfolio by churchill" class="img-responsive"></div>
-							<div class="slide"><img src="https://www.churchillservices.com/wp-content/uploads/2021/06/chequers_new_img2.png" alt="Chequers" class="img-responsive"></div>
-							<div class="slide"><img src="https://www.churchillservices.com/wp-content/uploads/2021/04/Environmental-slick-menu.png" alt="Churchill Environmental" class="img-responsive"></div>
-							<div class="slide"><img src="https://www.churchillservices.com/wp-content/uploads/2021/05/on-verve-main-slider-logo.png" alt="On-Verve" class="img-responsive"></div>
-							<div class="slide"><img src="https://www.churchillservices.com/wp-content/uploads/2021/04/Amulet-slick-menu.png" alt="Amulet" class="img-responsive"></div>
-							<div class="slide"><img src="https://www.churchillservices.com/wp-content/uploads/2021/04/Radish-slick-menu.png" alt="Radish" class="img-responsive"></div>
-							<div class="slide"><img src="https://www.churchillservices.com/wp-content/uploads/2021/04/Cati-slick-menu.png" alt="Cati" class="img-responsive"></div>
-							<div class="slide"><img src="https://www.churchillservices.com/wp-content/uploads/2021/11/modus-slider-logo.png" alt="Modus" class="img-responsive"></div>
+							<div class="slide"><img src="/wp-content/uploads/2021/04/Cleaning-slick-menu.png" alt="Churchill Cleaning" class="img-responsive"></div>
+							<div class="slide"><img src="/wp-content/uploads/2021/04/Portfolio-slick-menu.png" alt="Portfolio by churchill" class="img-responsive"></div>
+							<div class="slide"><img src="/wp-content/uploads/2021/06/chequers_new_img2.png" alt="Chequers" class="img-responsive"></div>
+							<div class="slide"><img src="/wp-content/uploads/2021/04/Environmental-slick-menu.png" alt="Churchill Environmental" class="img-responsive"></div>
+							<div class="slide"><img src="/wp-content/uploads/2021/05/on-verve-main-slider-logo.png" alt="On-Verve" class="img-responsive"></div>
+							<div class="slide"><img src="/wp-content/uploads/2021/04/Amulet-slick-menu.png" alt="Amulet" class="img-responsive"></div>
+							<div class="slide"><img src="/wp-content/uploads/2021/04/Radish-slick-menu.png" alt="Radish" class="img-responsive"></div>
+							<div class="slide"><img src="/wp-content/uploads/2021/04/Cati-slick-menu.png" alt="Cati" class="img-responsive"></div>
+							<div class="slide"><img src="/wp-content/uploads/2021/11/modus-slider-logo.png" alt="Modus" class="img-responsive"></div>
 						  </div>
 						  <div class="product__slider-main">
 							<div class="slide">
