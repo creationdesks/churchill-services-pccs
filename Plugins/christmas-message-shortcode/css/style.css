@@ -1,0 +1,43 @@
+/* style sheet
+   @package chirstmas-message-shortcode */
+
+.comm-soon, .no-content{
+	text-align: center;
+    color: #fff;
+    font-size: 2.5em;
+    font-weight: 700 !important;
+}
+.no-content{
+	position:relative;
+	margin:0 auto;
+}
+.special-content{
+	color: #fff;
+    padding: 20px;
+    font-weight: 400 !important;	
+}
+
+.special-content a{
+	color: #fecc00 !important;
+}
+.special-content a:hover{
+	color: #000 !important;
+}
+
+.counting{
+	font-size: 3em !important;
+    color: #fff !important;
+    text-align: center;
+    padding: 20px 30px 40px 30px;
+    border: 4px double #fff;
+	display: table;
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.count-message{
+	color:#fff;
+	text-align:center;
+	position: relative;
+    top: -70px;	
+}

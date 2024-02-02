@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<script>
+	// Set the date we're counting down to
+var countDownDate = new Date("January 04, 2022 12:30:00").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+    
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+    
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+  // Output the result in an element with id="demo"
+  document.getElementById("demo").innerHTML = hours + "h "
+  + minutes + "m " + seconds + "s ";
+    
+  // If the count down is over, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+	</script>
+  </head>
+  <body>
+
+<div class="container">
+	<br>
+	<img src="/wp-content/uploads/2019/08/logo-churchill.png" width="auto" height="300" class="mx-auto d-block">
+	<br>
+	<h1 class="display-1 text-center">We are under maintenance</h1><h3 class="display-4 text-center">and we will be back in </h3><h1 class="display-1 text-center"><span id="demo"></span></h1>
+	<br>
+	<h3 class="display-4 text-center">We are very sorry for the inconvenience.<br> We are currently working on new updates and we will be back soon. <br>Thank you for your patience.</h3>
+	<br>
+	<h3 class="display-4 text-center"><strong>if you would like to reach us, please contact our HelpPoint team on -</strong></h3>
+                     <h1 class="display-1 text-center">0845 345 1576</strong></h1>
+	<h3 class="display-4 text-center"><strong>or via e-mail at <a href="mailto:helppoint@client.com">helppoint@client.com</a></strong></h3>
+	<h3 class="display-4 text-center">If you require access to Mo:dus please follow the link here</h3>
+	<br>
+	<h3 class="display-4 text-center"><strong><a href="/Login">Mo:dus Login</a></strong></h3>
+	<br><br>
+</div>
+
+</body>
+</html>
